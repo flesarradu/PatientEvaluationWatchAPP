@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD168A77284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD168A76284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD168A7C284A6F050081363D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD168A7B284A6F050081363D /* Assets.xcassets */; };
+		DD168A82284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DD168A81284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD168A87284A6F050081363D /* PatientEvaluationWatchAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD168A86284A6F050081363D /* PatientEvaluationWatchAPPApp.swift */; };
+		DD168A89284A6F050081363D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD168A88284A6F050081363D /* ContentView.swift */; };
+		DD168A8B284A6F050081363D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD168A8A284A6F050081363D /* NotificationController.swift */; };
+		DD168A8D284A6F050081363D /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD168A8C284A6F050081363D /* NotificationView.swift */; };
+		DD168A8F284A6F050081363D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD168A8E284A6F050081363D /* ComplicationController.swift */; };
+		DD168A91284A6F050081363D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD168A90284A6F050081363D /* Assets.xcassets */; };
+		DD168A94284A6F050081363D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD168A93284A6F050081363D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD168A78284A6F020081363D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD168A6C284A6F020081363D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD168A75284A6F020081363D;
+			remoteInfo = "PatientEvaluationWatchAPP WatchKit App";
+		};
+		DD168A83284A6F050081363D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD168A6C284A6F020081363D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD168A80284A6F050081363D;
+			remoteInfo = "PatientEvaluationWatchAPP WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD168A9C284A6F050081363D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD168A82284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD168AA0284A6F050081363D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD168A77284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD168A72284A6F020081363D /* PatientEvaluationWatchAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientEvaluationWatchAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD168A76284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PatientEvaluationWatchAPP WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD168A7B284A6F050081363D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD168A81284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PatientEvaluationWatchAPP WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD168A86284A6F050081363D /* PatientEvaluationWatchAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientEvaluationWatchAPPApp.swift; sourceTree = "<group>"; };
+		DD168A88284A6F050081363D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD168A8A284A6F050081363D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DD168A8C284A6F050081363D /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		DD168A8E284A6F050081363D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		DD168A90284A6F050081363D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD168A93284A6F050081363D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD168A95284A6F050081363D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD168A96284A6F050081363D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD168A7E284A6F050081363D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD168A6B284A6F020081363D = {
+			isa = PBXGroup;
+			children = (
+				DD168A7A284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App */,
+				DD168A85284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension */,
+				DD168A73284A6F020081363D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD168A73284A6F020081363D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD168A72284A6F020081363D /* PatientEvaluationWatchAPP.app */,
+				DD168A76284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App.app */,
+				DD168A81284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD168A7A284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DD168A7B284A6F050081363D /* Assets.xcassets */,
+			);
+			path = "PatientEvaluationWatchAPP WatchKit App";
+			sourceTree = "<group>";
+		};
+		DD168A85284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD168A86284A6F050081363D /* PatientEvaluationWatchAPPApp.swift */,
+				DD168A88284A6F050081363D /* ContentView.swift */,
+				DD168A8A284A6F050081363D /* NotificationController.swift */,
+				DD168A8C284A6F050081363D /* NotificationView.swift */,
+				DD168A8E284A6F050081363D /* ComplicationController.swift */,
+				DD168A90284A6F050081363D /* Assets.xcassets */,
+				DD168A95284A6F050081363D /* Info.plist */,
+				DD168A96284A6F050081363D /* PushNotificationPayload.apns */,
+				DD168A92284A6F050081363D /* Preview Content */,
+			);
+			path = "PatientEvaluationWatchAPP WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DD168A92284A6F050081363D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD168A93284A6F050081363D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD168A71284A6F020081363D /* PatientEvaluationWatchAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD168AA1284A6F050081363D /* Build configuration list for PBXNativeTarget "PatientEvaluationWatchAPP" */;
+			buildPhases = (
+				DD168A70284A6F020081363D /* Resources */,
+				DD168AA0284A6F050081363D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD168A79284A6F020081363D /* PBXTargetDependency */,
+			);
+			name = PatientEvaluationWatchAPP;
+			productName = PatientEvaluationWatchAPP;
+			productReference = DD168A72284A6F020081363D /* PatientEvaluationWatchAPP.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DD168A75284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD168A9D284A6F050081363D /* Build configuration list for PBXNativeTarget "PatientEvaluationWatchAPP WatchKit App" */;
+			buildPhases = (
+				DD168A74284A6F020081363D /* Resources */,
+				DD168A9C284A6F050081363D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD168A84284A6F050081363D /* PBXTargetDependency */,
+			);
+			name = "PatientEvaluationWatchAPP WatchKit App";
+			productName = "PatientEvaluationWatchAPP WatchKit App";
+			productReference = DD168A76284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DD168A80284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD168A99284A6F050081363D /* Build configuration list for PBXNativeTarget "PatientEvaluationWatchAPP WatchKit Extension" */;
+			buildPhases = (
+				DD168A7D284A6F050081363D /* Sources */,
+				DD168A7E284A6F050081363D /* Frameworks */,
+				DD168A7F284A6F050081363D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PatientEvaluationWatchAPP WatchKit Extension";
+			productName = "PatientEvaluationWatchAPP WatchKit Extension";
+			productReference = DD168A81284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD168A6C284A6F020081363D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DD168A71284A6F020081363D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DD168A75284A6F020081363D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DD168A80284A6F050081363D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DD168A6F284A6F020081363D /* Build configuration list for PBXProject "PatientEvaluationWatchAPP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD168A6B284A6F020081363D;
+			productRefGroup = DD168A73284A6F020081363D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD168A71284A6F020081363D /* PatientEvaluationWatchAPP */,
+				DD168A75284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App */,
+				DD168A80284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD168A70284A6F020081363D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD168A74284A6F020081363D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD168A7C284A6F050081363D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD168A7F284A6F050081363D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD168A94284A6F050081363D /* Preview Assets.xcassets in Resources */,
+				DD168A91284A6F050081363D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD168A7D284A6F050081363D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD168A8B284A6F050081363D /* NotificationController.swift in Sources */,
+				DD168A89284A6F050081363D /* ContentView.swift in Sources */,
+				DD168A8F284A6F050081363D /* ComplicationController.swift in Sources */,
+				DD168A87284A6F050081363D /* PatientEvaluationWatchAPPApp.swift in Sources */,
+				DD168A8D284A6F050081363D /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD168A79284A6F020081363D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD168A75284A6F020081363D /* PatientEvaluationWatchAPP WatchKit App */;
+			targetProxy = DD168A78284A6F020081363D /* PBXContainerItemProxy */;
+		};
+		DD168A84284A6F050081363D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD168A80284A6F050081363D /* PatientEvaluationWatchAPP WatchKit Extension */;
+			targetProxy = DD168A83284A6F050081363D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD168A97284A6F050081363D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD168A98284A6F050081363D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD168A9A284A6F050081363D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PatientEvaluationWatchAPP WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KZKFVGDFT8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PatientEvaluationWatchAPP WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PatientEvaluationWatchAPP WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elyseum.PatientEvaluationWatchAPP.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		DD168A9B284A6F050081363D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PatientEvaluationWatchAPP WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KZKFVGDFT8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PatientEvaluationWatchAPP WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PatientEvaluationWatchAPP WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elyseum.PatientEvaluationWatchAPP.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		DD168A9E284A6F050081363D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZKFVGDFT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = PatientEvaluationWatchAPP_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "PatientEvaluationWatchAPP WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elyseum.PatientEvaluationWatchAPP.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		DD168A9F284A6F050081363D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZKFVGDFT8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = PatientEvaluationWatchAPP_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "PatientEvaluationWatchAPP WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elyseum.PatientEvaluationWatchAPP.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		DD168AA2284A6F050081363D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZKFVGDFT8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elyseum.PatientEvaluationWatchAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD168AA3284A6F050081363D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZKFVGDFT8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elyseum.PatientEvaluationWatchAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD168A6F284A6F020081363D /* Build configuration list for PBXProject "PatientEvaluationWatchAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD168A97284A6F050081363D /* Debug */,
+				DD168A98284A6F050081363D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD168A99284A6F050081363D /* Build configuration list for PBXNativeTarget "PatientEvaluationWatchAPP WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD168A9A284A6F050081363D /* Debug */,
+				DD168A9B284A6F050081363D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD168A9D284A6F050081363D /* Build configuration list for PBXNativeTarget "PatientEvaluationWatchAPP WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD168A9E284A6F050081363D /* Debug */,
+				DD168A9F284A6F050081363D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD168AA1284A6F050081363D /* Build configuration list for PBXNativeTarget "PatientEvaluationWatchAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD168AA2284A6F050081363D /* Debug */,
+				DD168AA3284A6F050081363D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD168A6C284A6F020081363D /* Project object */;
+}
