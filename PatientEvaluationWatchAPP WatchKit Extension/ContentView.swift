@@ -43,12 +43,16 @@ class AccelerometerDataRetriever{
             }
         }
     }
+    
+    
     func getX() -> Double{
         return self.x
     }
+    
     func getY()-> Double{
         return self.y
     }
+    
     func getZ()-> Double{
         return self.z
     }
